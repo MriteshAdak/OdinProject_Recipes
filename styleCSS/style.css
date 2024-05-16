@@ -1,0 +1,77 @@
+/* Stylesheet */
+
+/* index.html */
+body{
+    background-color: rgb(215, 255, 215);
+    background-image: url(https://www.theodinproject.com/assets/icons/odin-icon-a34029cd84a741be4da27758dafd7d7ac3729021adea3e0701e310d91e5c1d04.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 30%;
+    background-blend-mode: lighten;
+    background-attachment: fixed;
+    color: blueviolet;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    border-bottom: solid blueviolet;
+    padding-bottom: 1%;
+}
+
+h3{
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.listRecipes{
+    text-align: center;
+    line-height: 500%;
+}
+
+.links{
+    text-decoration: none;
+    border-style: solid;
+    padding: 1%;
+    border-radius: 5px;
+    color: blueviolet;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 25%;
+    border: solid;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+}
+
+th, td{
+    text-align: center;
+    border: solid;
+}
+
+p{
+    text-align: justify;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    padding: 1%;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
